@@ -1,10 +1,12 @@
 
+
 **Indian English ASR**
 ============
 
 ## Contents
 * [About the project](#about-the-project)  
 * [Installation](#installation-and-testing-process)
+* [Project File and Slides](#project-file-and-slides)
 * [Team](#team)
 
 ### About the project
@@ -21,7 +23,14 @@ This project was made as part of the IIIT Hyderabad Advanced Summer School on Na
 * Add your audio files for testing in `Indian_English_ASR/summer_asr_nptel/custom_test_dataset`. Make sure the `.wav` files are in 16Khz and mono-channel format. (To convert to required format you can use [this](https://github.com/sidgupta234/sh_files/blob/main/preprocess_audio.sh) script)
 * Create `text`, `utt2spk`, `spk2utt` and `wav.scp` file in `data/custom_test_dataset` (A script to ease this process will soon be added)
 * Run the script `run_testcases.sh` to get the transcription of the audio files!
-##### Team
-###### [Siddharth Gupta](https://github.com/sidgupta234)
-###### [Rohit Reddy](https://github.com/rohitreddy21122000)
-###### [Deepu C.](https://github.com/deepufrk)
+
+### Project File and Slides
+Project File are available [here](https://github.com/sidgupta234/Indian_English_ASR/blob/main/Indian_English_ASR.pdf)<br>
+Slides delivered for the project during the summer school are available [here](https://github.com/sidgupta234/Indian_English_ASR/blob/main/Indian_English_ASR_slides.pdf)
+
+### Team
+[Siddharth Gupta](https://github.com/sidgupta234)
+
+[Rohit Reddy](https://github.com/rohitreddy21122000)
+
+[Deepu C.](https://github.com/deepufrk)
