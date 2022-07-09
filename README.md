@@ -15,7 +15,7 @@ In this project, an Indian English ASR system based on Hidden Markov Models (HMM
 This project was made as part of the IIIT Hyderabad Advanced Summer School on Natural Language Processing ([IASNLP](https://ltrc.iiit.ac.in/iasnlp2022/)). 
 
 ### Installation and Testing Process
-* Install [Kaldi](https://github.com/kaldi-asr/kaldi) using their official documentation.<br><br>
+* Install [Kaldi](https://github.com/kaldi-asr/kaldi) using their official documentation.<br>
 * Go to Kaldi folder in your system and clone this repository in /egs using the following command. <br>
   `git clone https://github.com/sidgupta234/Indian_English_ASR` <br>
 * Add your audio files for testing in `Indian_English_ASR/summer_asr_nptel/custom_test_dataset`. Make sure the `.wav` files are in 16Khz and mono-channel format. (To convert to required format you can use [this](https://github.com/sidgupta234/sh_files/blob/main/preprocess_audio.sh) script)
