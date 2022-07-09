@@ -1,4 +1,4 @@
-steps/make_mfcc.sh --nj 8  --cmd run.pl data/custom_test_dataset_1 exp/make_mfcc/custom_test_dataset mfcc
+steps/make_mfcc.sh --nj 8  --cmd run.pl data/custom_test_dataset exp/make_mfcc/custom_test_dataset mfcc
 
 steps/compute_cmvn_stats.sh data/custom_test_dataset_1 exp/make_mfcc/custom_test_dataset mfcc
 
