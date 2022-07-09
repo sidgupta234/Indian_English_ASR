@@ -14,7 +14,7 @@ With the leaps in computational power and ever-increasing amount of structured s
 
 In this project, an Indian English ASR system based on Hidden Markov Models (HMM) has been designed using Kaldi(Povey et al., 2011). We aim to use available continuous English speech transcribed data obtained from non-native Indian English speakers in order to build an ASR system.
 
-This project was made as part of the IIIT Hyderabad Advanced Summer School on Natural Language Processing ([IASNLP](https://ltrc.iiit.ac.in/iasnlp2022/)). 
+This project was made as part of the IIIT Hyderabad Advanced Summer School on Natural Language Processing ([IASNLP 2022](https://ltrc.iiit.ac.in/iasnlp2022/)). 
 
 ### Installation and Testing Process
 * Install [Kaldi](https://github.com/kaldi-asr/kaldi) using their official documentation.<br>
